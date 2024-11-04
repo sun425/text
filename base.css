@@ -1,0 +1,42 @@
+/* 基础公共样式：清除默认样式 + 设置通用样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font: 14px/1.5 "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+  color: #333;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.hd {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  height: 60px;
+
+}
+
+.hd h3 {
+  font-size: 21px;
+  line-height: 60px;
+  font-weight: 400;
+}
+
+.hd .more {
+  padding-right: 20px;
+  font-size: 14px;
+  color: #999;
+  line-height: 60px;
+  background: url(../images/more.png) no-repeat right center;
+}
